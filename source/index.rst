@@ -10,6 +10,7 @@ Welcome to matching's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   00_maching
 
 
 Indices and tables
