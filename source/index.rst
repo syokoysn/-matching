@@ -12,7 +12,7 @@ Welcome to matching's documentation!
 
    00_maching
 
-
+   
 Indices and tables
 ==================
 
