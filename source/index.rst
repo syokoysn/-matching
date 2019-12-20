@@ -9,7 +9,6 @@
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
    00_intro
    01_maching
 
