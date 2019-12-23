@@ -5,17 +5,20 @@
 
 マッチング理論の勉強
 ====================================
+test 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
-
-   00_maching
+   
+   00_intro
+   01_matching
+   02_matching
 
    
 Indices and tables
 ==================
-
+  
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

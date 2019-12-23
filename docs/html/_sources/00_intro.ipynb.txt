@@ -1,0 +1,55 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## マッチング理論\n",
+    "このサイトは,主に経済学で研究されてきたマッチング理論(Matching theory)について有名な問題を扱って，プログラミング言語 python を用いて理解をしながら学ぶサイトです.\n",
+    "\n",
+    "## マッチング問題の分類\n",
+    "\n",
+    "\n",
+    "\n",
+    "### 扱う有名な問題\n",
+    "- 安定結婚問題\n",
+    "- 学校選択問題"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/matching.pdf"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
