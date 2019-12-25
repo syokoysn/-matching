@@ -36,7 +36,9 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="検索" href="search.html" /> 
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="next" title="安定結婚問題" href="01_matching.html" />
+    <link rel="prev" title="マッチング理論の勉強" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -80,15 +82,17 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">マッチング理論</a></li>
-<li><a class="reference internal" href="#マッチング問題の分類">マッチング問題の分類</a><ul>
-<li><a class="reference internal" href="#扱う有名な問題">扱う有名な問題</a></li>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">マッチング理論</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#マッチング問題の分類">マッチング問題の分類</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#扱う有名な問題">扱う有名な問題</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="01_matching.html">安定結婚問題</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_matching.html">TCC</a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -375,17 +379,76 @@ div.rendered_html tbody tr:hover {
 </style>
 <div class="section" id="マッチング理論">
 <h1>マッチング理論<a class="headerlink" href="#マッチング理論" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>このサイトは,主に経済学で研究されてきたマッチング理論(Matching theory)について有名な問題を扱って，プログラミング言語 python を用いて理解をしながら学ぶサイトです.</p>
+<p>このサイトは,経済学やで研究されてきたマッチング理論(Matching theory)について有名な問題を扱って，プログラミング言語 python を用いて理解をしながら学ぶサイトです.</p>
 </div>
 <div class="section" id="マッチング問題の分類">
 <h1>マッチング問題の分類<a class="headerlink" href="#マッチング問題の分類" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>分類の仕方にはいくつかある.参考に代表的な分類方法として以下の二つをあげる．</p>
+<p>分類方法1</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>分類</p></th>
+<th class="head"><p>有名な問題</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>両方に優先順位のある二部マッチング問題</p></td>
+<td><p>安定結婚問題, 研修医配属問題</p></td>
+</tr>
+<tr class="row-odd"><td><p>片方に優先順位のある二部マッチング問題</p></td>
+<td><p>住宅割り当て問題</p></td>
+</tr>
+<tr class="row-even"><td><p>優先順位のある非二部マッチング問題</p></td>
+<td><p>安定ルームメイト問題</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p>分類方法2</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>分類</p></th>
+<th class="head"><p>有名な問題</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1対１マッチング問題</p></td>
+<td><p>安定結婚問題, 安定ルームメイト問題</p></td>
+</tr>
+<tr class="row-odd"><td><p>多対１マッチング問題</p></td>
+<td><p>研修医配属問題</p></td>
+</tr>
+<tr class="row-even"><td><p>多対多マッチング問題</p></td>
+<td><p>腎臓交換問題</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">グラフの構造に注目した分類方法が分類方法１です.</div>
+<div class="line">一方，各主体における許容量や割り当て量に注目して分類したのが分類方法２となっています．</div>
+</div>
 <div class="section" id="扱う有名な問題">
 <h2>扱う有名な問題<a class="headerlink" href="#扱う有名な問題" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><p>安定結婚問題</p></li>
 <li><p>学校選択問題</p></li>
 </ul>
+<p>扱う有名なアルゴリズム - Gale-Shapley - TTC - DA - ボストン</p>
+<p>参考</p>
 <p><a class="reference external" href="https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/matching.pdf">https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/matching.pdf</a></p>
+<hr class="docutils" />
+<p>HR - <a class="reference external" href="http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1649-11.pdf">http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1649-11.pdf</a></p>
+<p>HA - <a class="reference external" href="https://math.mit.edu/~apost/courses/18.204-2016/18.204_Michael_Wallace_final_paper.pdf">https://math.mit.edu/~apost/courses/18.204-2016/18.204_Michael_Wallace_final_paper.pdf</a></p>
+<p>わからんけど近しいもの</p>
+<p><a class="reference external" href="https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227217/1/RAMP_25sympo_30.pdf">https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227217/1/RAMP_25sympo_30.pdf</a></p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
@@ -403,6 +466,15 @@ div.rendered_html tbody tr:hover {
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="01_matching.html" class="btn btn-neutral float-right" title="安定結婚問題" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="マッチング理論の勉強" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

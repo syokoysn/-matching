@@ -5,12 +5,44 @@
    "metadata": {},
    "source": [
     "## マッチング理論\n",
-    "このサイトは,主に経済学で研究されてきたマッチング理論(Matching theory)について有名な問題を扱って，プログラミング言語 python を用いて理解をしながら学ぶサイトです.\n",
+    "このサイトは,経済学やで研究されてきたマッチング理論(Matching theory)について有名な問題を扱って，プログラミング言語 python を用いて理解をしながら学ぶサイトです.\n",
     "\n",
     "## マッチング問題の分類\n",
     "\n",
+    "分類の仕方にはいくつかある.参考に代表的な分類方法として以下の二つをあげる．  \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "分類方法1   \n",
+    "\n",
+    "|分類| 有名な問題|\n",
+    "|--|--|\n",
+    "|両方に優先順位のある二部マッチング問題| 安定結婚問題, 研修医配属問題|\n",
+    "| 片方に優先順位のある二部マッチング問題|住宅割り当て問題|\n",
+    "|優先順位のある非二部マッチング問題|安定ルームメイト問題|\n",
     "\n",
     "\n",
+    "---\n",
+    "\n",
+    "分類方法2\n",
+    "\n",
+    "|分類| 有名な問題|\n",
+    "|--|--|\n",
+    "|1対１マッチング問題| 安定結婚問題, 安定ルームメイト問題|\n",
+    "|多対１マッチング問題|研修医配属問題|\n",
+    "|多対多マッチング問題|腎臓交換問題|\n",
+    "\n",
+    "グラフの構造に注目した分類方法が分類方法１です.  \n",
+    "一方，各主体における許容量や割り当て量に注目して分類したのが分類方法２となっています． "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "### 扱う有名な問題\n",
     "- 安定結婚問題\n",
     "- 学校選択問題"
@@ -20,7 +52,57 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+    "扱う有名なアルゴリズム\n",
+    "- Gale-Shapley\n",
+    "- TTC\n",
+    "- DA \n",
+    "- ボストン"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "参考"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/matching.pdf"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "HR \n",
+    "- http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1649-11.pdf"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "HA \n",
+    "- https://math.mit.edu/~apost/courses/18.204-2016/18.204_Michael_Wallace_final_paper.pdf"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "わからんけど近しいもの\n",
+    "\n",
+    "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227217/1/RAMP_25sympo_30.pdf"
    ]
   },
   {
